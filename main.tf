@@ -40,6 +40,7 @@ output "appsec_config" {
 data "akamai_properties" "my_properties" {
     group_id    = "grp_18545"
     contract_id = "ctr_1-5C13OE"
+
 }
 
 #output "properties" {
@@ -54,3 +55,4 @@ data "akamai_property" "my_akamai_property" {
 output "property" {
   value = data.akamai_property.my_akamai_property
 }
+
